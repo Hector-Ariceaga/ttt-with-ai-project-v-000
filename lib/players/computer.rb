@@ -73,11 +73,11 @@ module Players
         elsif board.taken?(3)
           '3'
         end
-      when 6
+    
         
         
       end
-    end 
+    end
   end
 end
   
