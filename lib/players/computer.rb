@@ -15,6 +15,7 @@ module Players
         elsif !board.taken?(1)
           '1'
         end
+      end
     end 
   end
 end
