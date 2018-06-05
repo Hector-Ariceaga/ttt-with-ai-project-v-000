@@ -90,10 +90,10 @@ module Players
           '1'
         end
       when 8
-        board.cells.map! do |c|
-          if c == " "
-            'X'
-          end
+        if board.taken?(1)
+          '1'
+        elsif board.taken?(2)
+          '2'
         end
       end
     end
