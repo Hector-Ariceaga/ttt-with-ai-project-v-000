@@ -93,8 +93,6 @@ class Game
       
         one_player_game.board.display
         one_player_game.play
-      
-        #1 player logic
      end
     
      if players == '2'
