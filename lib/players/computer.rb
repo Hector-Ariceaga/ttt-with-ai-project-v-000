@@ -4,8 +4,8 @@ module Players
       turn = board.turn_count
       
       case turn
-      when 
-        
+      when 0
+        if 
       end
     end 
   end
