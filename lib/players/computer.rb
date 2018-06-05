@@ -90,7 +90,7 @@ module Players
           '1'
         end
       when 8
-        "X" = board.cells.detect {|cell| cell = " "}
+        board.cells.map {|cell| cell = " "}
       end
     end
   end
