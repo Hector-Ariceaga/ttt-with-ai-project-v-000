@@ -78,6 +78,14 @@ module Players
           '9'
         elsif board.position(8) == 'X' && board.position(9) == 'X'
           '7'
+        elsif board.position(1) == 'X' && board.position(3) == 'X'
+          '2'
+        elsif board.position(1) == 'X' && board.position(7) == 'X'
+          '4'
+        elsif board.position(7) == 'X' && board.position(9) == 'X'
+          '8'
+        elsif board.position(3) == 'X' && board.position(9) == 'X'
+          '6'
         end 
       when 4
         if board.position(2) == 'O' && board.position(5) == 'O'
