@@ -84,8 +84,24 @@ module Players
           '3'
         end
       when 7
-        if board.position(9) == 'X' && board.position(6) == 'X'
+        if board.position(1) == 'X' && board.position(2) == 'X'
           '3'
+        elsif board.position(1) == 'X' && board.position(4) == 'X'
+          '7'
+        elsif board.position(2) == 'X' && board.position(4) == 'X'
+          '8'
+        elsif board.position(3) == 'X' && board.position(6) == 'X'
+          '9'
+        elsif board.position(4) == 'X' && board.position(5) == 'X'
+          '6'
+        elsif board.position(5) == 'X' && board.position(6) == 'X'
+          '4'
+        elsif board.position(6) == 'X' && board.position(9) == 'X'
+          '3'
+        elsif board.position(7) == 'X' && board.position(8) == 'X'
+          '9'
+        elsif board.position(8) == 'X' && board.position(9) == 'X'
+          '7'
         elsif !board.taken?(1)
           '1'
         end
