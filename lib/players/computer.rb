@@ -6,9 +6,15 @@ module Players
       
       case turn
       when 0
-        '7' if !board.taken?(7)
-      end
-      
+        if !board.taken?(7)
+          '7' 
+        end
+      when 1 
+        if !board.taken?(7)
+          '7'
+        elsif !board.taken?(1)
+          '1'
+        end
     end 
   end
 end
