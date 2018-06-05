@@ -5,7 +5,9 @@ module Players
       
       case turn
       when 0
-        if 
+        if !taken?(7)
+          7
+        elsif !taken
       end
     end 
   end
