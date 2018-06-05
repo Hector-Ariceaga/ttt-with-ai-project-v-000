@@ -90,7 +90,7 @@ module Players
           '1'
         end
       when 8
-        board.tap {|cell| cell = " "; cell = "X"}
+        board.cells.tap {|cell| cell = " "; cell = "X"}
       end
     end
   end
