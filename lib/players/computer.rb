@@ -89,9 +89,8 @@ module Players
         elsif board.taken?(1)
           '1'
       when 8
-        board.
-        
-        
+        board.cells.detect {|cell| cell = "X"}
+      end
       end
     end
   end
