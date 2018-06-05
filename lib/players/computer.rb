@@ -64,12 +64,17 @@ module Players
           '4'
         end
       when 5
-        if board.position(1) == 'O' && board.position(3) == 'O'
-          '2'
-        elsif board.position(1) == 'O' && board.position(7) == 'O'
+        if !board.taken?(4)
           '4'
-        elsif board.position(1) == 'O' && board.position(9) == '8'
-      end
+        elsif board.taken?(6)
+          '6'
+        elsif board.taken?(1) 
+          '1'
+        elsif board.taken?(3)
+          '3'
+        end
+      when 6
+        
         
       end
     end 
