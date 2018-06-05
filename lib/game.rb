@@ -92,6 +92,7 @@ class Game
         end
       
         one_player_game.board.display
+        one_player_game.play
       
         #1 player logic
      end
