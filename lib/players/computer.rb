@@ -66,11 +66,11 @@ module Players
       when 5
         if !board.taken?(4)
           '4'
-        elsif board.taken?(6)
+        elsif !board.taken?(6)
           '6'
-        elsif board.taken?(1) 
+        elsif !board.taken?(1) 
           '1'
-        elsif board.taken?(3)
+        elsif !board.taken?(3)
           '3'
         end
       when 6
@@ -86,7 +86,7 @@ module Players
       when 7
         if board.position(9) == 'X' && board.position(6) == 'X'
           '3'
-        elsif board.taken?(1)
+        elsif !board.taken?(1)
           '1'
         end
       when 8
