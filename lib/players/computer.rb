@@ -92,7 +92,6 @@ module Players
       when 8
         board.cells.detect {|cell| cell = "X"}
       end
-      end
     end
   end
 end
