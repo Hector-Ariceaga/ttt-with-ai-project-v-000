@@ -71,7 +71,7 @@ class Game
         comp_game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"))
         puts "The computer will now play itself!"
         #0 player game logic
-        play
+        comp_game.play
       end
     
       if players == '1'
