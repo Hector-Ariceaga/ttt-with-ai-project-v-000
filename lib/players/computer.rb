@@ -42,7 +42,7 @@ module Players
           '9'
         elsif !board.taken?(1)
           '1'
-        elsif board.taken?(3)
+        elsif !board.taken?(3)
           '3'
         end
       when 3
