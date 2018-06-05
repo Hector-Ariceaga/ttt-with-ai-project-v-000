@@ -40,7 +40,7 @@ module Players
           '4'
         elsif board.cells[8] == 'X' && board.cells[4] == 'X'
           '5'
-        elsif board.taken?(7) && board.cells[9] == 'X'
+        elsif board.cells[8] == 'X' && board.cells[9] == 'X'
           '8'
         end
         
