@@ -38,10 +38,10 @@ module Players
           elsif !board.taken?(9)
             '9'
           end
-        elsif board.position(1) == 'O' 
+        elsif !board.taken?(9)
           '9'
-        elsif board.position(2) == 'O'
-          '9'
+        elsif !board.taken?(1)
+          '1'
         elsif board.position(3) == 'O'
           '9'
         elsif board.position(4)
