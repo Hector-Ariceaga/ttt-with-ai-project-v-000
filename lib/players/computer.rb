@@ -44,7 +44,6 @@ module Players
           '3'
         elsif board.position(3) == 'O'
           '9'
-        
         end
       when 3
         if board.position(7) == 'X' && board.position(3) == 'X'
