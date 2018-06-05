@@ -92,7 +92,7 @@ module Players
       when 8
         board.cells.map! do |c|
           if c == " "
-            c = "X"
+            'X'
           end
         end
       end
