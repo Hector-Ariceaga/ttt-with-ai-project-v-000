@@ -38,12 +38,12 @@ class Game
   end
     
   def turn
-    board.display
     num = current_player.move(board)
     while !board.valid_move?(num)
       num = current_player.move(board)
     end
     board.update(num, current_player)
+    board.display
   end
     
   def play 
