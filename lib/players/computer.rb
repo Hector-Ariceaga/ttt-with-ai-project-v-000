@@ -14,33 +14,33 @@ module Players
           '7'
         elsif !board.taken?(1)
           '1'
-        elsif !board.taken(3)
+        elsif !board.taken?(3)
           '3'
-        elsif !board.taken(9)
+        elsif !board.taken?(9)
           '9'
         end
       when 2 
-        if !board.taken(3)
+        if !board.taken?(3)
           '3'
-        elsif !board.taken(1)
+        elsif !board.taken?(1)
           '1'
-        elsif !board.taken(9)
+        elsif !board.taken?(9)
           '9'
         end
       when 3
-        if !board.taken(3)
+        if !board.taken?(3)
           '3'
-        elsif !board.taken(7)
+        elsif !board.taken?(7)
           '7'
-        elsif !board.taken(9)
+        elsif !board.taken?(9)
           '9'
         end 
       when 4
-        if board.taken(7) && board.taken(1)
+        if board.taken?(7) && board.taken?(1)
           '4'
-        elsif board.taken(7) && board.taken(3)
+        elsif board.taken?(7) && board.taken?(3)
           '2'
-        elsif board.taken(7) && board.taken(9)
+        elsif board.taken?(7) && board.taken?(9)
           '8'
         end
         
