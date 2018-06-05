@@ -28,9 +28,9 @@ module Players
           '9'
         end
       when 3
-        if !board.taken?(3)
-          '3'
-        elsif !board.taken?(7)
+        if board.position(7) == 'X' && board.position(3) == 'X'
+          '5'
+        elsif !board.taken?(7) == 'X'
           '7'
         elsif !board.taken?(9)
           '9'
