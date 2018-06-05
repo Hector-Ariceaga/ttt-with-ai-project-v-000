@@ -90,7 +90,9 @@ class Game
         else first_player == "computer"
           one_player_game = Game.new(Players::Computer.new("X"), player_2 = Players::Human.new("O"))
         end
-    
+        
+        board.display
+        
         one_player_game.play
      end
     
