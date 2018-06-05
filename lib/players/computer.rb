@@ -8,7 +8,7 @@ module Players
       when 0
         '7'
       end
-      binding.pry
+      
     end 
   end
 end
