@@ -73,7 +73,17 @@ module Players
         elsif board.taken?(3)
           '3'
         end
-    
+      when 6
+        if board.position(4) == 'O' && board.position(5) == 'O'
+          '6'
+        elsif board.position(6) == 'O' && board.position(5) == 'O'
+          '4'
+        elsif !board.taken?(1)
+          '1'
+        elsif !board.taken?(3)
+          '3'
+        end
+        
         
         
       end
