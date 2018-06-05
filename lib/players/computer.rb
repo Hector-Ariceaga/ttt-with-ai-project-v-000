@@ -54,12 +54,14 @@ module Players
           '8'
         end 
       when 4
-        if board.position(1) == 'X' && board.position(5) == 'X'
-          '4'
-        elsif board.position(7) == 'X' && board.position(3) == 'X'
-          '5'
-        elsif board.position(7) == 'X' && board.position(9) == 'X'
+        if board.position(2) == 'O' && board.position(5) == 'O'
           '8'
+        elsif board.position(4) == 'O' && board.position(5) == 'O'
+          '6'
+        elsif board.position(8) == 'O' && board.position(5) == 'O'
+          '2'
+        elsif board.position(6) == 'O' && board.position (5) == 'O'
+          '4'
         end
       when 5
         if board.position(1) == 'O' && board.position(3) == 'O'
