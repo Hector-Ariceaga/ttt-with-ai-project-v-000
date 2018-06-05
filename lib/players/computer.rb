@@ -90,7 +90,7 @@ module Players
           '1'
         end
       when 8
-        board.cells.detect {|cell| cell = " "; cell = "X"}
+        "X" = board.cells.detect {|cell| cell = " "}
       end
     end
   end
