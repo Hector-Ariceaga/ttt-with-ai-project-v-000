@@ -90,7 +90,11 @@ module Players
           '1'
         end
       when 8
-        board.cells.map! {|cell| if (cell == " "); board.cell = "X"}
+        board.cells.map! do |c|
+          if c == " "
+            c = "X"
+          end
+        end
       end
     end
   end
