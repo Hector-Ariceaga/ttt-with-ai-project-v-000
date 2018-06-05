@@ -49,6 +49,7 @@ module Players
         elsif board.position(1) == 'O' && board.position(7) == 'O'
           '4'
         elsif board.position(1) == 'O' && board.position(9) == '8'
+      end
         
       end
     end 
