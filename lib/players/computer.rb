@@ -83,7 +83,13 @@ module Players
         elsif !board.taken?(3)
           '3'
         end
-        
+      when 7
+        if board.position(9) == 'X' && board.position(6) == 'X'
+          '3'
+        elsif board.taken?(1)
+          '1'
+      when 8
+        board.
         
         
       end
