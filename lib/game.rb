@@ -98,7 +98,9 @@ class Game
        puts "Player one will be 'X'."
       
        two_player_game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"))
-      
+       
+       board.display
+       
        two_player_game.play
       end
       
