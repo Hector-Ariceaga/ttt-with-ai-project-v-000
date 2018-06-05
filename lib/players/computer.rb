@@ -18,6 +18,8 @@ module Players
           '3'
         elsif !board.taken?(9)
           '9'
+        elsif !board.taken?(2)
+          '2'
           
         end
       when 2 
