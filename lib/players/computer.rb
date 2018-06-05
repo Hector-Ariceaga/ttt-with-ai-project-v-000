@@ -60,7 +60,7 @@ module Players
           '6'
         elsif board.position(8) == 'O' && board.position(5) == 'O'
           '2'
-        elsif board.position(6) == 'O' && board.position (5) == 'O'
+        elsif board.position(6) == 'O' && board.position(5) == 'O'
           '4'
         end
       when 5
