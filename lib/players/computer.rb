@@ -36,11 +36,11 @@ module Players
           '9'
         end 
       when 4
-        if board.taken?(7) && board.taken?(1)
+        if board.taken?(7) && board.cells[1] == 'X'
           '4'
-        elsif board.taken?(7) && board.taken?(3)
+        elsif board.taken?(7) && board.cells[3] == 'X'
           '2'
-        elsif board.taken?(7) && board.taken?(9)
+        elsif board.taken?(7) && board.cells[9] == 'X'
           '8'
         end
         
