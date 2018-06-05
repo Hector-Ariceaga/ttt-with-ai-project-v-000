@@ -14,8 +14,9 @@ module Players
           '7'
         elsif !board.taken?(1)
           '1'
-        
-        when 
+        end
+      when 2 
+        if !board.taken()
         
         
       end
