@@ -20,7 +20,12 @@ module Players
           '9'
         elsif !board.taken?(2)
           '2'
-          
+        elsif !board.taken?(4)
+          '4'
+        elsif !board.taken?(6)
+          '2'
+        elsif !board.taken?(8)
+          '2'
         end
       when 2 
         if !board.taken?(3)
