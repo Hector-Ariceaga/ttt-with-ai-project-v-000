@@ -6,7 +6,7 @@ module Players
       
       case turn
       when 0
-        '7' if !board.taken(7)
+        '7' if !board.taken?(7)
       end
       
     end 
