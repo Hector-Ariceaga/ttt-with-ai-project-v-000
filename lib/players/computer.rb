@@ -116,8 +116,6 @@ module Players
           '9'
         elsif board.position(8) == 'X' && board.position(9) == 'X'
           '7'
-        elsif !board.taken?(1)
-          '1'
         end
       when 8
         if !board.taken?(1)
