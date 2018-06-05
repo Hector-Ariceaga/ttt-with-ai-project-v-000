@@ -1,3 +1,4 @@
+require 'pry'
 module Players
   class Computer < Player
     def move(board)
@@ -7,6 +8,7 @@ module Players
       when 0
         '7'
       end
+      binding.pry
     end 
   end
 end
