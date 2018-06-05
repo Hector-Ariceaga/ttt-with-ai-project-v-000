@@ -88,6 +88,7 @@ module Players
           '3'
         elsif board.taken?(1)
           '1'
+        end
       when 8
         board.cells.detect {|cell| cell = "X"}
       end
