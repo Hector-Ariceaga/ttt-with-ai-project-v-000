@@ -30,10 +30,10 @@ module Players
       when 3
         if board.position(7) == 'X' && board.position(3) == 'X'
           '5'
-        elsif !board.taken?(7) == 'X'
-          '7'
-        elsif !board.taken?(9)
-          '9'
+        elsif board.position(7) == 'X' && board.position(1) == 'X'
+          '4'
+        elsif board.position(7) == 'X' && board.position(9) == 'X'
+          '8'
         end 
       when 4
         if board.position(7) == 'X' && board.position(1) == 'X'
