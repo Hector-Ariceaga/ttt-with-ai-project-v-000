@@ -42,9 +42,8 @@ module Players
           '9'
         elsif !board.taken?(1)
           '1'
-        elsif board.position(3) == 'O'
-          '9'
-        elsif board.position(4)
+        elsif board.taken?(3)
+          '3'
         end
       when 3
         if board.position(7) == 'X' && board.position(3) == 'X'
