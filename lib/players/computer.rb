@@ -196,45 +196,45 @@ module Players
       when 7
         if board.position(1) == 'X' && board.position(2) == 'X' && !board.taken?(3)
           '3'
-        elsif board.position(1) == 'X' && board.position(4) == 'X'
+        elsif board.position(1) == 'X' && board.position(4) == 'X' && !board.taken?(7)
           '7'
-        elsif board.position(1) == 'X' && board.position(5) == 'X'
+        elsif board.position(1) == 'X' && board.position(5) == 'X' && !board.taken?(9)
           '9'
-        elsif board.position(1) == 'X' && board.position(3) == 'X'
+        elsif board.position(1) == 'X' && board.position(3) == 'X' && !board.taken?(2)
           '2'
-        elsif board.position(1) == 'X' && board.position(7) == 'X'
+        elsif board.position(1) == 'X' && board.position(7) == 'X' && !board.taken?(4)
           '4'
-        elsif board.position(1) == 'X' && board.position(9) == 'X'
+        elsif board.position(1) == 'X' && board.position(9) == 'X' && !board.taken?(5)
           '5'
-        elsif board.position(2) == 'X' && board.position(3) == 'X'
+        elsif board.position(2) == 'X' && board.position(3) == 'X' && !board.taken?(1)
           '1'
-        elsif board.position(2) == 'X' && board.position(4) == 'X'
+        elsif board.position(2) == 'X' && board.position(4) == 'X' && !board.taken?(8)
           '8'
-        elsif board.position(3) == 'X' && board.position(6) == 'X'
+        elsif board.position(3) == 'X' && board.position(6) == 'X' && !board.taken?(9)
           '9'
-        elsif board.position(3) == 'X' && board.position(5) == 'X'
+        elsif board.position(3) == 'X' && board.position(5) == 'X' && !board.taken?(7) 
           '7'
-        elsif board.position(3) == 'X' && board.position(9) == 'X'
+        elsif board.position(3) == 'X' && board.position(9) == 'X' && !board.taken?(6)
           '6'
-        elsif board.position(3) == 'X' && board.position(7) == 'X'
+        elsif board.position(3) == 'X' && board.position(7) == 'X' && !board.taken?(5)
           '5'
-        elsif board.position(4) == 'X' && board.position(5) == 'X'
+        elsif board.position(4) == 'X' && board.position(5) == 'X' && !board.taken?(6)
           '6'
-        elsif board.position(4) == 'X' && board.position(7) == 'X'
+        elsif board.position(4) == 'X' && board.position(7) == 'X' && !board.taken?(1)
           '1'
-        elsif board.position(5) == 'X' && board.position(6) == 'X'
+        elsif board.position(5) == 'X' && board.position(6) == 'X' && !board.taken?(4)
           '4'
-        elsif board.position(5) == 'X' && board.position(7) == 'X'
+        elsif board.position(5) == 'X' && board.position(7) == 'X' && !board.taken?(3)
           '3'
-        elsif board.position(5) == 'X' && board.position(8) == 'X'
+        elsif board.position(5) == 'X' && board.position(8) == 'X' && !board.taken?(2)
           '2'
-        elsif board.position(5) == 'X' && board.position(9) == 'X'
+        elsif board.position(5) == 'X' && board.position(9) == 'X' && !board.taken?(1)
           '1'
-        elsif board.position(6) == 'X' && board.position(9) == 'X'
+        elsif board.position(6) == 'X' && board.position(9) == 'X' && !board.taken?(3)
           '3'
-        elsif board.position(7) == 'X' && board.position(8) == 'X'
+        elsif board.position(7) == 'X' && board.position(8) == 'X' && !board.taken?(9)
           '9'
-        elsif board.position(8) == 'X' && board.position(9) == 'X'
+        elsif board.position(8) == 'X' && board.position(9) == 'X' && !board.taken?(7)
           '7'
         elsif !board.taken?(1)
          '1'
