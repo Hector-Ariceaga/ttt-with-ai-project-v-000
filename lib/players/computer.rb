@@ -194,7 +194,7 @@ module Players
          '9'
         end
       when 7
-        if board.position(1) == 'X' && board.position(2) == 'X'
+        if board.position(1) == 'X' && board.position(2) == 'X' && !board.taken?(3)
           '3'
         elsif board.position(1) == 'X' && board.position(4) == 'X'
           '7'
