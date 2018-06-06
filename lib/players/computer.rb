@@ -30,7 +30,7 @@ module Players
           '2'
         end
       when 2 
-        if board.position?(5) != 'O'
+        if board.position(5) != 'O'
           if board.position(4) == 'O'
             '9'
           elsif board.position(8) == 'O'
