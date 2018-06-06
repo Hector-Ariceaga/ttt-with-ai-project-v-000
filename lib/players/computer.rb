@@ -174,6 +174,67 @@ module Players
           '6'
         elsif board.position(3) == 'X' && board.position(7) == 'X'
           '5'
+        elsif board.position(1) == 'X' && board.position(2) == 'X'
+          '3'
+        elsif board.position(1) == 'X' && board.position(4) == 'X'
+          '7'
+        elsif board.position(1) == 'X' && board.position(5) == 'X'
+          '9'
+        elsif board.position(1) == 'X' && board.position(3) == 'X'
+          '2'
+        elsif board.position(1) == 'X' && board.position(7) == 'X'
+          '4'
+        elsif board.position(1) == 'X' && board.position(9) == 'X'
+          '5'
+        elsif board.position(2) == 'X' && board.position(3) == 'X'
+          '1'
+        elsif board.position(2) == 'X' && board.position(4) == 'X'
+          '8'
+        elsif board.position(3) == 'X' && board.position(6) == 'X'
+          '9'
+        elsif board.position(3) == 'X' && board.position(5) == 'X'
+          '7'
+        elsif board.position(3) == 'X' && board.position(9) == 'X'
+          '6'
+        elsif board.position(3) == 'X' && board.position(7) == 'X'
+          '5'
+        elsif board.position(4) == 'X' && board.position(5) == 'X'
+          '6'
+        elsif board.position(4) == 'X' && board.position(7) == 'X'
+          '1'
+        elsif board.position(5) == 'X' && board.position(6) == 'X'
+          '4'
+        elsif board.position(5) == 'X' && board.position(7) == 'X'
+          '3'
+        elsif board.position(5) == 'X' && board.position(8) == 'X'
+          '2'
+        elsif board.position(5) == 'X' && board.position(9) == 'X'
+          '1'
+        elsif board.position(6) == 'X' && board.position(9) == 'X'
+          '3'
+        elsif board.position(7) == 'X' && board.position(8) == 'X'
+          '9'
+        elsif board.position(8) == 'X' && board.position(9) == 'X'
+          '7'
+        elsif !board.taken?(1)
+         '1'
+        elsif !board.taken?(2)
+         '2'
+        elsif !board.taken?(3)
+         '3'
+        elsif !board.taken?(4)
+         '4'
+        elsif !board.taken?(5)
+         '5'
+        elsif !board.taken?(6)
+         '6'
+        elsif !board.taken?(7)
+         '7'
+        elsif !board.taken?(8)
+         '8'
+        elsif !board.taken?(9)
+         '9'
+        end
         elsif !board.taken?(1)
           '1'
         elsif !board.taken?(2)
