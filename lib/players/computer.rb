@@ -170,6 +170,10 @@ module Players
           '6'
         elsif board.position(6) == 'O' && board.position(5) == 'O'
           '4'
+        elsif board.position(3) == 'X' && board.position(9) == 'X'
+          '6'
+        elsif board.position(3) == 'X' && board.position(7) == 'X'
+          '5'
         elsif !board.taken?(1)
           '1'
         elsif !board.taken?(2)
