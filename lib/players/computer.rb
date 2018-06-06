@@ -100,6 +100,8 @@ module Players
           '2'
         elsif board.position(6) == 'O' && board.position(5) == 'O'
           '4'
+        elsif board.position(3) == 'X' && board.position(7) == 'X'
+          '5'
         end
       when 5
         if !board.taken?(4)
